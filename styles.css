@@ -1,0 +1,39 @@
+.shadow_box {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a {
+    font-size: 1.2rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    #navbtn {
+        display: none;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+    .news-group {
+        width: 50%;
+    }
+}
+
+
+/* x-small */
+
+@media (max-width: 200px) {
+    #navbtn {
+        display: none;
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
